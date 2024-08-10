@@ -7,7 +7,7 @@ app = Flask(__name__)
 def start():
     s = random.randint(2, 20)
     s = f"hi  + {s}"
-    return "hiiii"
+    return s
 
 @app.route("/mbsa")
 def mbsa():
