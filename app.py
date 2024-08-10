@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def start():
-    return "mmm" + str(random.randint(1, 1000))
+    return "mmm"
 
 @app.route("/mbsa")
 def mbsa():
