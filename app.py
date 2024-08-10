@@ -1,13 +1,11 @@
-from flask import Flask, render_template
+from flask import Flask, render_template 
 import random 
 
 app = Flask(__name__)
 
 @app.route("/")
 def start():
-    for x in range(10):
-        x += x
-    return str(x)
+    return "abc"
 
 @app.route("/mbsa")
 def mbsa():
