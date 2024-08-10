@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def start():
-    return "The MBSA Server is Running"
+    return "hiiii"
 
 @app.route("/mbsa")
 def mbsa():
