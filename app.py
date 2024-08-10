@@ -7,7 +7,8 @@ app = Flask(__name__)
 def start():
     s = ""
     for x in range(10):
-        s += f"hi - {random.randint(1, 100} \n"
+        r = random.randint(1, 100)
+        s += "hi" + str(r) + "\n"
     return s
 
 @app.route("/mbsa")
